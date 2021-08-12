@@ -1,0 +1,51 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin:5px 20px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    margin: 0px 20px;
+}
+.nav-content {
+    margin: 0px 40px;
+    position: relative;
+    display: flex;
+}
+.nav-content a {
+    text-decoration: none;
+    color: inherit;
+}
+.nav-content:hover {
+    color: #4BCCC4;
+}
+.arrow {
+    transform: rotate(-90deg);
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    right: -40px;
+    
+}
+.search-bar button {
+    margin: 0 1rem;
+    padding: 0.8rem;
+    background: linear-gradient(135deg, #4BCCC4 0%, #4CC6CB 33.57%, #4EB9DA 100%), #C4C4C4;
+    border-radius: 0.5rem;
+    border:none
+}
+.search-bar button:hover {
+    background: #4EB9DA;
+    cursor: pointer;
+}
+.search-bar button:hover > .fa{
+    color: lightgray;
+}
+.fa {
+    color: white;
+}
+
