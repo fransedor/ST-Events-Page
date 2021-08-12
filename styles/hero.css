@@ -28,7 +28,8 @@
     width: 200px;
     position: absolute;
     top: -30px;
-    right: 43.5%;
+    left: 50%;
+    transform: translate(-50%, 0);
     opacity: 0.2;
     z-index: 0;
 }
