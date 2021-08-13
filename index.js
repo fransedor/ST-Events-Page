@@ -13,5 +13,5 @@ document.addEventListener("DOMContentLoaded", () => {
         <p>Learn More</p>`;
         eventList.appendChild(eventPreview);
     })
-    document.body.style.fontSize = `${fontSize}px`;
+    // document.body.style.fontSize = `${fontSize}px`;
 })
