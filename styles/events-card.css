@@ -105,25 +105,35 @@ main {
 }
 
 @media screen and (max-width: 900px) {
+    main {
+        padding-bottom: 120px;
+    }
     .events-card {
-        top: -96px;
+        top: 68px;
+        margin: 0px 16px;
+        width: auto;
     }
     .events-nav {
         display: block;
         position: absolute;
-        top: -80px;
-        width: 90%;
+        top: -56px;
+        width: 95%;
         left: 50%;
         transform: translate(-50%, 0);
         border-radius: 8px;
         border: none;
-        background: white;
+        color: white;
+        background: linear-gradient(135deg, #4BCCC4 0%, #4CC6CB 33.57%, #4EB9DA 100%), #C4C4C4;
         padding: 8px 16px;
         
     }
     .events-nav h2 {
         margin: 0;
         font-size: 20px;
+    }
+    .events-nav h2 > .arrow {
+        position: absolute;
+        right: 3%;
     }
     .events-nav a {
         display: none;
@@ -133,11 +143,7 @@ main {
     }
 }
 @media screen and (max-width: 483px) {
-    .events-card {
-        top: -64px;
-        margin: 0;
-        width: fit-content;
-    }
+    
 }
 @media screen and (max-width: 410px) {
     html {
@@ -148,7 +154,5 @@ main {
     html {
         font-size: 11px;
     }
-    .events-card {
-        top: -96px;
-    }
+    
 }
