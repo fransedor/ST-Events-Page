@@ -18,6 +18,9 @@ main {
 .events-nav h2 {
     margin-top: 0;
 }
+.events-nav h2 > .arrow {
+    display: none;
+}
 .events-nav h3 {
     font-weight: normal;
 }
@@ -109,37 +112,48 @@ main {
         padding-bottom: 120px;
     }
     .events-card {
-        top: 68px;
+        top: 0px;
         margin: 0px 16px;
         width: auto;
+        display: block;
+        background: none;
+        padding: 0;
     }
     .events-nav {
         display: block;
-        position: absolute;
-        top: -56px;
         width: 95%;
-        left: 50%;
-        transform: translate(-50%, 0);
-        border-radius: 8px;
+        margin: 16px auto 16px auto;
         border: none;
         color: white;
+        padding: 0;
+    }
+    .events-nav-button {
         background: linear-gradient(135deg, #4BCCC4 0%, #4CC6CB 33.57%, #4EB9DA 100%), #C4C4C4;
         padding: 8px 16px;
-        
+        border-radius: 8px;
+        position: relative;
     }
     .events-nav h2 {
         margin: 0;
         font-size: 20px;
     }
     .events-nav h2 > .arrow {
+        display: inline;
         position: absolute;
         right: 3%;
     }
-    .events-nav a {
-        display: none;
+    .events-nav h3 {
+        display: block;
+        color: black;
+        background: white;
+        margin: 0;
+        padding: 8px 16px;
     }
     .events-content {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 8px;
+        background: white;
     }
 }
 @media screen and (max-width: 483px) {
