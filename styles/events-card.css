@@ -149,6 +149,10 @@ main {
     html {
         font-size: 14px;
     }
+    .hidden-search button {
+        font-size: 8px;
+        padding:8px;
+    }
 }
 @media screen and (max-width: 380px) {
     html {
